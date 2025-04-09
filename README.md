@@ -14,13 +14,8 @@
 ### Configurar o ambiente virtual - Flask Web Server
 
 **Criar uma nova pasta**
+Crie uma pasta onde você armazenará seu projeto
 
-<aside>
-<img src="/icons/photo-landscape_blue.svg" alt="/icons/photo-landscape_blue.svg" width="40px" />
-
-![image.png](attachment:a4afb9d9-17ce-4eac-b690-092169f5b8a3:image.png)
-
-</aside>
 
 **Criar o Venv**
 
@@ -42,48 +37,22 @@ pip install flask
 
 **Criar um arquivo app.py**
 
-<aside>
-<img src="/icons/photo-landscape_blue.svg" alt="/icons/photo-landscape_blue.svg" width="40px" />
-
-![image.png](attachment:870f9deb-2464-4829-bad9-36b727fca6be:image.png)
-
-</aside>
+Crie um arquivo na sua pasta chamado app.py 
 
 **Importar o Flask e o Jinja2**
 
-<aside>
-<img src="/icons/photo-landscape_blue.svg" alt="/icons/photo-landscape_blue.svg" width="40px" />
-
-![image.png](attachment:522af2b9-b2a1-46d6-83f6-35868c3ff486:image.png)
-
-</aside>
+```python
+from flask import Flask, render_template
+```
 
 **Criar pasta - Templates** 
 
-<aside>
-<img src="/icons/photo-landscape_blue.svg" alt="/icons/photo-landscape_blue.svg" width="40px" />
-
-![image.png](attachment:8d4d79b5-ed86-4d95-8c8f-f9f1b32eac09:image.png)
-
-</aside>
+Crie uma pasta chamada templates para armazenar os arquivos html.
 
 **Criar a pasta - Static (dividida em CSS, JS e Img)**
 
-<aside>
-<img src="/icons/photo-landscape_blue.svg" alt="/icons/photo-landscape_blue.svg" width="40px" />
+Crie uma pasta chamada static para armazenar outras pastas chamadas css (para armazenar os estilos em css dos arquivos html), img (armazena imagens utilizadas no código) e js (armazena arquivos em json).
 
-![image.png](attachment:afbf2401-981a-44d5-a439-925a89a1545d:image.png)
-
-</aside>
-
-**Resultado**
-
-<aside>
-<img src="/icons/photo-landscape_blue.svg" alt="/icons/photo-landscape_blue.svg" width="40px" />
-
-![image.png](attachment:0fde26c9-8ae9-4acc-b3ad-e59ac0dcf9d3:image.png)
-
-</aside>
 
 **Biblioteca Werkzeug**
 
